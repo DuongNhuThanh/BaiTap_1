@@ -1,0 +1,1165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    width: 1600px;
+    height: 5870px;
+    border-top: -504px;
+    border-left: -637px;
+    position: relative;
+    
+}
+/* ====HEADER==== */
+#header{
+    width: 1487px;
+    height: 719px;
+    background-color: #fff;
+    position: absolute;
+    top:50px;
+}
+/* Phần NAV */
+#nav {
+    width: 545px;
+    height: 35px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+}
+#nav li{
+    display:inline-block;
+    padding: 0 20px;
+    opacity: 50%;
+}
+#nav .nav-heading{
+    opacity: 100%;
+}
+#nav li a{
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(38, 87, 147);
+    line-height: 35px;
+}
+
+/* Phần HEADER_TEXT*/
+#header-text{
+    width: 445px;
+    height: 338px;
+    border-radius: 55px;
+    position: absolute;
+    left: 280px;
+    top: 300px;
+}
+#header-text #text{
+    width: 427px;
+    height: 112px;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+#header-text #text-chirld{
+    width: 445px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 21px;
+    line-height: 23px;
+    text-align: left;
+    color:rgba(125, 121, 135, 1);
+}
+#header-text #contact{
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    background-color: rgba(69, 143, 246, 1);
+    margin-top: 10px;
+}
+#header-text #contact-text{
+    width: 120px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    line-height: 60px;
+    text-align:center;
+    color:  #fff;
+}
+
+/* Phần image*/
+#header #image{
+    width: 693px;
+    height: 558px;
+    position: absolute;
+    background-image: url('./img/img/trafalgar-header\ illustration\ 1ảnh_header.jpg');
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: 0;
+    background-size: 693px;
+}
+/* Phần elemnt*/
+#header #element{
+    width: 200px;
+    height: 100px;
+    opacity: 0.3px;
+    position: absolute;
+    bottom: 59%;
+    right: 75%;
+}
+
+/* Phần logo */
+#header #logo{
+    width: 160px;
+    height: 41px;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    line-height: 41px;
+   
+}
+#header #logo #logo-text{
+    font-size: 22px;
+    padding: 0 15px;
+    background-color: rgba(69, 143, 246, 1);
+    border-radius: 50px;
+    float: left;
+    color: #fff;
+    
+}
+#header #logo #logo-content{
+    width: 107px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+
+/* ====OUT SERVICES==== */
+#out-services{
+    width: 1675px;
+    height: 1133px;
+    position:relative;  /* kế thùa main */
+    top: 800px;
+    z-index: 0;
+}
+/* Phần text */
+#out-services #text{
+    width: 952px;
+    height: 177px;
+    text-align: center;
+    margin: auto;
+}
+#out-services #text #head{
+    width: 212px;
+    height: 56px;
+    font-size: 36px;
+    line-height: 56px;
+    display: inline-block;
+}
+#out-services #text #text-head{
+    width: 952px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    color:  rgba(125, 121, 135, 1);
+}
+#out-services #text #line-head{
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 1);
+    margin: auto;
+    margin-top: 10px;
+}
+/* Phần service */
+#out-services #services{
+    width: 1120px;
+    height: 745px;
+    margin: auto;
+    position: relative;
+    text-align: left;
+    z-index: -1;
+}
+#out-services #services #search-doctor{
+    width: 350px;
+    height: 354px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+#out-services #services #search-doctor #icon{
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 170px;
+    height: 125px;
+    background-image: url('./img/img/Frame.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#out-services #services #search-doctor #text-dad{
+    width: 160px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 56px;
+    margin: 0 44px auto;
+    color:rgba(0, 0, 0, 1);
+}
+#out-services #services #search-doctor #text-chirld{
+    width: 261px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    color:rgba(125, 121, 135, 1);
+    margin: auto;
+}
+#out-services #services #online-pharmacy{
+    width: 350px;
+    height: 354px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    margin-left: 385px;
+    position: absolute;
+    top:0;
+    float: left;
+    border-radius: 20px;  
+}
+#out-services #services #online-pharmacy #icon{
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 170px;
+    height: 125px;
+    background-image: url('./img/img/Frame\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#out-services #services #online-pharmacy #text-dad{
+    width: 196px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 56px;
+    margin:0 44px auto;
+    color:rgba(0, 0, 0, 1);
+}
+#out-services #services #online-pharmacy #text-chirld{
+    width: 261px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    color:rgba(125, 121, 135, 1);
+    margin: auto;
+}
+#out-services #services #consultation{
+    width: 350px;
+    height: 354px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 20px;
+}
+#out-services #services #consultation #icon{
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 170px;
+    height: 125px;
+    background-image: url('./img/img/Frame\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#out-services #services #consultation #text-dad{
+    width: 196px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 56px;
+    margin: 0 44px auto;
+    color:rgba(0, 0, 0, 1);
+}
+#out-services #services #consultation #text-chirld{
+    width: 261px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    color:rgba(125, 121, 135, 1);
+    margin: auto;
+}
+#out-services #services #details-infor{
+    width: 350px;
+    height: 354px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+#out-services #services #details-infor #icon{
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 170px;
+    height: 125px;
+    background: rgba(255, 255, 255, 1);
+    background-image: url('./img/img/Frame\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#out-services #services #details-infor #text-dad{
+    width: 130px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 56px;
+    margin: 0 44px auto;
+    color:rgba(0, 0, 0, 1);
+}
+#out-services #services #details-infor #text-chirld{
+    width: 261px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    color:rgba(125, 121, 135, 1);
+    margin: auto;
+    
+}
+#out-services #services #emergency-care{
+    width: 350px;
+    height: 354px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    margin-left: 385px;
+    position: absolute;
+    bottom: 0;
+    float: left;
+    border-radius: 20px;
+}
+#out-services #services #emergency-care #icon{
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 170px;
+    height: 125px;
+    background-image: url('./img/img/Frame\ \(5\).jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#out-services #services #emergency-care #text-dad{
+    width: 182px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 56px;
+    margin: 0 44px auto;
+    color:rgba(0, 0, 0, 1);
+}
+#out-services #services #emergency-care #text-chirld{
+    width: 261px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    color:rgba(125, 121, 135, 1);
+    margin: auto;
+}
+#out-services #services #tracking{
+    width: 350px;
+    height: 354px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    float: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px;
+}
+#out-services #services #tracking #icon{
+    margin-top: 44px;
+    margin-left: 44px;
+    width: 170px;
+    height: 125px;
+    background-image: url('./img/img/Frame\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#out-services #services #tracking #text-dad{
+    width: 98px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 56px;
+    margin: 0 44px auto;
+    color:rgba(0, 0, 0, 1);
+
+}
+#out-services #services #tracking #text-chirld{
+    width: 261px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 28px;
+    color:rgba(125, 121, 135, 1);
+    margin: auto;
+}
+
+/* Phần Bg */
+#out-services #bg-element{
+    background-image: url(./img/img/Frame\ \(6\).jpg);
+    position:absolute;
+    top: 50px;
+ }
+
+ /* Phần element */
+#out-services #arrow-element{
+    background-image: url(./img/img/elementchấm.jpg);
+    width: 131px;
+    height: 115px;
+    opacity: 0.3px;
+    position: absolute;
+    right: 240px;
+    top: 500px;
+    z-index: -1;
+}
+
+/* Phần Btn */
+#out-services .btn #btn-text{
+    width: 98px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    margin: auto;
+}
+#out-services .btn #btn-box{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* ====HEALTH CARE==== */
+#health{
+    width: 1273px;
+    height: 477px;
+    position: absolute;
+    left: 201px;
+    top: 2000px;
+}
+#health #h-img{
+    width: 650px;
+    height: 477px;
+    position: absolute;
+    background-image: url(./img/trafalgar-illustration\ sec02\ 1.jpg); 
+}
+#health #h-text{
+    width: 486px;
+    height: 388px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+#health #h-text #h-head{ 
+    width: 481px;
+    height: 112px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 18px;
+    font-size: 26px;
+    line-height: 56px ;
+}
+#health #h-text #h-line{
+    width: 56px;
+    height: 2px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 0;
+    top: 150px; 
+}
+#health #h-text #h-body{
+    width: 450px;
+    height: 120px;
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    left: 0;
+    top: 190px;
+    color: rgba(125, 121, 135, 1);
+}
+ #health #h-text #h-btn{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 55px;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    text-align: center;
+}
+#health #h-text #h-btn #btn-body{
+    width: 98px;
+    height: 60px;
+    margin: auto;
+    font-size: 18;
+    line-height: 60px;
+    color: rgba(69, 143, 246, 1);
+}
+
+/* ====Application==== */
+#app{
+    width: 1366px;
+    height: 675px;
+    position: absolute;
+    left: 320px;
+    top:2500px;
+}
+#app #a-text{
+    width: 420px;
+    height: 375px;
+    position: absolute;
+    top: 270px;
+}
+#app #a-element{
+    background-image: url(./img/img/elementchấm.jpg);
+    width: 131px;
+    height: 115px;
+    opacity: 0.3px;    
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+#app #a-img{
+    width: 665px;
+    height: 434px;
+    position: absolute;
+    background-image: url(./img/img/trafalgar-illustration\ sec03\ 1app.jpg); 
+    right: 130px;
+    top: 200px;
+}
+#app #a-text #a-head{ 
+    width: 481px;
+    height: 112px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 18px;
+    font-size: 26px;
+    line-height: 56px ;
+}
+#app #a-text #a-line{
+    width: 56px;
+    height: 2px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 0px;
+    top: 140px; 
+}
+#app #a-text #a-body{
+    width: 450px;
+    height: 120px;
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 170px;
+    color: rgba(125, 121, 135, 1);
+}
+ #app #a-text #a-btn{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    border-radius: 55px;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    text-align: center;
+}
+#app #a-text #a-btn #body-app{
+    width: 98px;
+    height: 60px;
+    margin: auto;
+    font-size: 18;
+    line-height: 60px;
+    color: rgba(69, 143, 246, 1);
+}
+#app #a-text #a-btn #body-app i{
+    margin: 3px;
+}
+
+/* ====Feedback==== */
+#feedback{
+    width: 1219px;
+    height: 502px;
+    position: absolute;
+    top: 3300px;
+    left: 190px;
+}
+/* Phần feedback body */
+#feedback #fb-body{
+    width: 1219px;
+    height: 440px;
+    position: absolute;  /* kế thừa feedback */
+    z-index: 0;
+    text-align: center;
+    
+}
+#feedback #fb-body #fb-avartar{
+    width: 141px;
+    height: 141px;
+    position: absolute; /* kế thừa body */
+    bottom: 80px;
+    left: 150px;  
+}
+#feedback #fb-body #fb-avartar #mask{
+    width: 133px;
+    height: 133px;
+    background-image: url(./img/img/image\ 1mask.jpg);
+    position: absolute;   /* kế thừa body */
+    left: 4px;
+    top: 4px;
+    border-radius: 100%;
+} 
+#feedback #fb-body #fb-avartar #ellipse{
+    width: 141px;
+    height: 141px;
+    position: absolute;   /* kế thừa body */
+    background: rgba(255, 255, 255, 1);
+    border-radius: 100%;
+}
+#feedback #fb-body #fb-line{
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+    background-image: url(./img/img/white.jpg);
+    position: absolute; /* kế thừa body */
+    top: 180px;
+    left: 585px;
+    background-color: #fff;
+}
+#feedback #fb-body #fb-founder{
+    width: 119px;
+    height: 48px;
+    position: absolute;  /* kế thừa body */
+    top: 300px;
+    left: 330px;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+}
+#feedback #fb-body #fb-name{
+    width: 184px;
+    height: 48px;
+    position: absolute;  /* kế thừa body */
+    top: 272px;
+    left: 322px;
+    font-size: 22px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);   
+}
+#feedback #fb-body #fb-title{
+    width: 522px;
+    height: 48px;
+    position: absolute;   /* kế thừa body */
+    top: 100px;
+    left: 348.5px;
+    font-size: 36px;
+    line-height: 48px;
+    color:rgba(255, 255, 255, 1);
+
+}
+#feedback #fb-body #fb-text{
+    width: 420px;
+    height: 120px;
+    position: absolute;   /* kế thừa body */
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    right: 150px;
+    top: 250px;
+    text-align: left;
+}
+#feedback #fb-body #fb-element-1{
+    background-image: url(./img/img/elementchấm.jpg);
+    width: 131.58px;
+    height: 115px;
+    opacity: 0.26px;
+    position: absolute;  /* kế thừa body */
+    right: 0;
+    z-index: -2;
+}
+#feedback #fb-body #fb-element-2{
+    background-image: url(./img/img/elementchấm.jpg);
+    width: 131.58px;
+    height: 115px;
+    opacity: 0.26px;
+    position: absolute;  /* kế thừa body */
+    bottom: 0;
+    z-index: -2; 
+}
+#feedback #fb-body #fb-rectangle{
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    position: absolute;  /* kế thừa body */
+    right: 50.5px;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Phần feedback arrow */
+#feedback #fb-arrow {
+    width: 336px;
+    height: 20px;
+    position: absolute;  /* kế thừa feedback */
+    bottom: 0;
+    left: 441.5px;
+    text-align: center;
+}  
+#feedback #fb-arrow #fb-slider {
+    width: 94px;
+    height: 10px;
+    position: absolute;  /* kế thừa arrow */
+    left: 135px;
+}  
+#feedback #fb-arrow #fb-slider #one{
+    width: 10px;
+    height: 10px;
+    position: absolute;  /* kế thừa slider */
+    background: rgba(91, 155, 243, 1);
+    margin-left: 0;
+    border-radius: 100%;
+}
+#feedback #fb-arrow #fb-slider #two{
+    width: 10px;
+    height: 10px;
+    position: absolute;  /* kế thừa slider */
+    background: rgba(91, 155, 243, 1);  
+    margin-left: 20px; border-radius: 100%;
+    opacity: 30%;
+}
+#feedback #fb-arrow #fb-slider #three{
+    width: 10px;
+    height: 10px;
+    position: absolute;  /* kế thừa slider */
+    background: rgba(91, 155, 243, 1);
+    margin-left: 40px; border-radius: 100%;
+    opacity: 30%;
+}
+#feedback #fb-arrow #fb-slider #four{
+    width: 10px;
+    height: 10px;
+    position: absolute;  /* kế thừa slider */
+    background: rgba(91, 155, 243, 1); 
+    left: 60px; border-radius: 100%;
+    opacity: 30%;
+}
+
+#feedback #fb-arrow #fb-frame-1 {
+    width: 31.43px;
+    height: 20px;
+    position: absolute;  /* kế thừa arrow */
+    left: 0;
+    padding: 1.43px, 2.14px, 0.71px, 1.22px;
+    opacity: 40%;
+}  
+#feedback #fb-arrow #fb-frame-2 {
+    width: 31.43px;
+    height: 20px;
+    position: absolute;  /* kế thừa arrow */
+    right: 0;
+    padding: 1.43px, 2.14px, 0.71px, 1.22px;
+}  
+
+/* ====Article==== */
+#article {
+    width: 1785.11px;
+    height: 810px;
+    position: relative;   /* kế thừa body */
+    top: 2880px;
+    left: 200px;
+    z-index: 0;
+}
+#article #post-1{
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    position: absolute;    /* kế thừa article */
+    top: 148px;
+    left: 68px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    z-index: 1;
+}
+#article #post-1 #image-1{
+    width: 350px;
+    height: 240px;
+    border-radius: 20px, 20px, 0px, 0px;
+    background-image: url(./img/img/image\ 2post-1.jpg);
+    border-radius: 20px 20px 0 0;
+}
+#article #post-1 #header{
+    width: 251px;
+    height: 64px;
+    position: absolute;   /* kế thừa article */
+    top:260px;
+    left: 40px;
+    font-size: 21px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+}
+#article #post-1 #chirld{
+    width: 266px;
+    height: 84px;
+    position: absolute;   /* kế thừa article */
+    top: 350px;
+    left: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(125, 121, 135, 1);
+
+}
+#article #post-1 #read-more{
+    width: 266px;
+    height: 28px;
+    position: absolute;  /* kế thừa article */
+    bottom: 25px;
+    left: 40px;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(64, 137, 237, 1);  
+}
+#article #post-1 #read-more .ti-arrow-right{
+    width: 14.14px;
+    height: 9px;
+    margin-left: 20px;
+    
+}
+#article #post-2{
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    position: absolute;    /* kế thừa article */
+    top: 148px;
+    left: 450px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    z-index: 1;
+}
+#article #post-2 #image-2{
+    width: 350px;
+    height: 240px;
+    border-radius: 20px, 20px, 0px, 0px;
+    background-image: url(./img/img/image\ 2post-2.png);
+    border-radius: 20px 20px 0 0;
+}
+#article #post-2 #header{
+    width: 251px;
+    height: 64px;
+    position: absolute;   /* kế thừa article */
+    top:260px;
+    left: 40px;
+    font-size: 21px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+}
+#article #post-2 #chirld{
+    width: 266px;
+    height: 84px;
+    position: absolute;   /* kế thừa article */
+    top: 350px;
+    left: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(125, 121, 135, 1);
+
+}
+#article #post-2 #read-more{
+    width: 266px;
+    height: 28px;
+    position: absolute;   /* kế thừa article */
+    bottom: 25px;
+    left: 40px;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(64, 137, 237, 1);  
+}
+#article #post-2 #read-more .ti-arrow-right{
+    width: 14.14px;
+    height: 9px;
+    margin-left: 20px;
+    
+}
+
+#article #post-3{
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    position: absolute;    /* kế thừa article */
+    top: 148px;
+    left: 832px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    z-index: 1;
+}
+#article #post-3 #image-3{
+    width: 350px;
+    height: 240px;
+    border-radius: 20px, 20px, 0px, 0px;
+    background-image: url(./img/img/image\ 3post-3.png);
+    border-radius: 20px 20px 0 0;
+}
+#article #post-3 #header{
+    width: 251px;
+    height: 64px;
+    position: absolute;   /* kế thừa article */
+    top:260px;
+    left: 40px;
+    font-size: 21px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+}
+#article #post-3 #chirld{
+    width: 266px;
+    height: 84px;
+    position: absolute;   /* kế thừa article */
+    top: 350px;
+    left: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(125, 121, 135, 1);
+
+}
+#article #post-3 #read-more{
+    width: 266px;
+    height: 28px;
+    position: absolute;   /* kế thừa article */
+    bottom: 25px;
+    left: 40px;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(64, 137, 237, 1);  
+}
+#article #post-3 #read-more .ti-arrow-right{
+    width: 14.14px;
+    height: 9px;
+    margin-left: 20px;
+    
+}
+#article #text{
+    width: 462px;
+    height: 84px;
+    border-radius: 5px;
+    position: absolute;    /* kế thừa article*/
+    top: 0;
+    left: 365px;
+    text-align: center;
+}
+#article #text #text-body{
+    width: 462px;
+    height: 56px;
+    font-size: 36px;
+    line-height: 56px;
+    color: rgba(0, 0, 0, 1);
+}
+#article #text #text-line{
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;   /* kế thừa article*/
+    bottom: 0;
+    left: 203px;
+}
+#article #element-1{
+    width: 131.58px;
+    height: 115px;
+    opacity: 0.3px;
+    position: absolute;   /* kế thừa article*/
+    top: 100px;
+    left: 0;
+    background-image: url(./img/img/elementchấm.jpg);
+    z-index: 0;
+}
+#article #btn{
+    width: 200px;
+    height: 60px;
+    position: absolute;   /* kế thừa article*/
+    bottom: 0;
+    left: 500px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    color: rgba(69, 143, 246, 1);
+    border: solid ;
+    border-radius: 55px;
+}
+#article #element-2{
+    width: 778.73px;
+    height: 557.4px;
+    padding: 0.02px, 0px, 0px, 0px;
+    opacity: 0.6px;
+    background-image: url(./img/img/elementelement-article.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* ====Footer==== */
+#footer{
+    width: 1638px;
+    height: 523px;
+    position: relative;  /* kế thừa main */
+    top: 3000px;
+    left: -19px;
+}
+#footer #element{
+    width: 131.58px;
+    height: 115px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    background-image: url(./img/img/elementchấm.jpg);
+    z-index: -1;
+}
+#footer #box{
+    width: 1600px;
+    height: 432px;
+    position: absolute;
+    bottom: 20px;
+    left: 19px;
+    background: 
+    linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    z-index: 0;
+}
+#footer #box #fist-company{
+    width: 92px;
+    height: 60px;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1); 
+}
+#footer #box #contend-company{
+    width: 391px;
+    height: 152px;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 60%;
+}
+#footer #box #fist-region{
+    width: 92px;
+    height: 60px;
+    position: absolute;
+    top: 150px;
+    left: 1050px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1); 
+}
+#footer #box #contend-region{
+    width: 391px;
+    height: 152px;
+    position: absolute;
+    left: 1050px;
+    top: 200px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 60%;
+}
+#footer #box #fist-help{
+    width: 92px;
+    height: 60px;
+    position: absolute;
+    top: 150px;
+    left: 1350px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1); 
+}
+#footer #box #contend-help{
+    width: 391px;
+    height: 152px;
+    position: absolute;
+    left: 1350px;
+    top: 200px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 60%;
+}
+#footer #box #box-logo{
+    background-image: url(./img/img/Ellipse\ 8box-logo.jpg);
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 145px;
+    left: 250px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 41px;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(91, 155, 243, 1);
+}
+#footer #box #name-logo{
+    width: 107px;
+    height: 30px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+#footer #box #contend-trafalgar{
+    width: 391px;
+    height: 84px;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 60%;  
+}
+#footer #box #end-trafalgar{
+    width: 391px;
+    height: 28px;
+    position: absolute;
+    left: 250px;
+    top: 320px;    
+    text-align: left;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 60%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
